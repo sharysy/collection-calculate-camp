@@ -7,4 +7,5 @@ function compute_chain_median(collection) {
   return sortedArr.length % 2 === 0 ? (sortedArr[parseInt(sortedArr.length / 2) - 1] + sortedArr[parseInt(sortedArr.length / 2)]) / 2 : sortedArr[parseInt(sortedArr.length / 2) - 1];
 }
 
+//noinspection JSUnresolvedVariable
 module.exports = compute_chain_median;
